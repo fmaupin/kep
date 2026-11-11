@@ -1,0 +1,129 @@
+{
+    "properties": [
+        {
+            "name": "chunk.analysis.min-content-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.min-content-size'"
+        },
+        {
+            "name": "chunk.analysis.paragraph-detection-ratio",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.paragraph-detection-ratio'"
+        },
+        {
+            "name": "chunk.size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.size'"
+        },
+        {
+            "name": "chunk.min-paragraph-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.min-paragraph-size'"
+        },
+        {
+            "name": "chunk.max-paragraphs-per-chunk",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.max-paragraphs-per-chunk'"
+        },
+        {
+            "name": "chunk.analysis.adaptive.min-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.adaptive.min-size'"
+        },
+        {
+            "name": "chunk.analysis.adaptive.max-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.adaptive.max-size'"
+        },
+        {
+            "name": "chunk.analysis.adaptive.density-factor",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.adaptive.density-factor'"
+        },
+        {
+            "name": "chunk.analysis.adaptive.light-factor",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.adaptive.light-factor'"
+        },
+        {
+            "name": "chunk.analysis.section.min-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.section.min-size'"
+        },
+        {
+            "name": "chunk.analysis.section.max-size",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.section.max-size'"
+        },
+        {
+            "name": "chunk.analysis.section.preserve-headers",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.section.preserve-headers'"
+        },
+        {
+            "name": "chunk.analysis.section.subsection-ratio",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.section.subsection-ratio'"
+        },
+        {
+            "name": "chunk.analysis.structure.heading-pattern",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.structure.heading-pattern'"
+        },
+        {
+            "name": "chunk.analysis.structure.list-item-ratio",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.structure.list-item-ratio'"
+        },
+        {
+            "name": "chunk.analysis.structure.max-line-length",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.structure.max-line-length'"
+        },
+        {
+            "name": "chunk.analysis.density.word-density",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.density.word-density'"
+        },
+        {
+            "name": "chunk.analysis.density.sentence-length",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.density.sentence-length'"
+        },
+        {
+            "name": "chunk.analysis.density.whitespace-ratio",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.density.whitespace-ratio'"
+        },
+        {
+            "name": "chunk.analysis.density.variance-threshold",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.density.variance-threshold'"
+        },
+        {
+            "name": "chunk.analysis.document.format-detection",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.document.format-detection'"
+        },
+        {
+            "name": "chunk.analysis.document.table-threshold",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.document.table-threshold'"
+        },
+        {
+            "name": "chunk.analysis.document.metadata-analysis",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.document.metadata-analysis'"
+        },
+        {
+            "name": "chunk.analysis.document.font-size-variations",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.document.font-size-variations'"
+        },
+        {
+            "name": "chunk.analysis.document.image-text-ratio",
+            "type": "java.lang.String",
+            "description": "A description for 'chunk.analysis.document.image-text-ratio'"
+        }
+    ]
+}

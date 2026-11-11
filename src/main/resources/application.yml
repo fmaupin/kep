@@ -1,0 +1,48 @@
+spring:
+  main:
+    banner-mode: "off"
+  application:
+    name: "keywpord-app"
+
+chunk:
+  size: 1000  # size of the chunks in characters for the FIXED_SIZE policy
+  min-paragraph-size: 100
+  max-paragraphs-per-chunk: 5
+
+  analysis:    
+    min-content-size: 1000  # minimum content size for policy analysis
+    paragraph-detection-ratio: 0.1  # ratio of empty lines to detect a paragraph structure
+
+    # Configure Clipping Policies
+    adaptive:
+      min-size: 500  # Minimum size for adaptive chunks
+      max-size: 2000  # Maximum size for adaptive chunks
+      density-factor: 1.5  # Multiplier factor for dense text
+      light-factor: 0.7  # Multiplier factor for light text
+
+    section:
+      min-size: 200
+      max-size: 3000 
+      preserve-headers: true
+      subsection-ratio: 0.5  # Ratio for cutting large sections
+
+    # Text structure criteria
+    structure:
+      heading-pattern: "^[A-Z0-9]+[.)\\s].*$"  # Pattern regex for detecting headings
+      list-item-ratio: 0.3  # Ratio of lines starting with bullet points/numbers
+      max-line-length: 100  # Maximum average line length (for detecting code)
+    
+    # Density and distribution criteria
+    density:
+      word-density: 5  # Average number of words per line
+      sentence-length: 20  # Average sentence length in words
+      whitespace-ratio: 0.15  # Acceptable ratio of whitespace
+      variance-threshold: 0.5  # Acceptable variance in block sizes
+
+    # Document-specific criteria
+    document:
+      format-detection: true  # Enable document format detection
+      table-threshold: 0.3  # Ratio of tabular lines for detecting tables
+      metadata-analysis: true  # Analyze document metadata
+      font-size-variations: 0.2  # Threshold for font size variations
+      image-text-ratio: 0.1  # Ratio maximum d'images par rapport au texte
